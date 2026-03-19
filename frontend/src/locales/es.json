@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "Team Task Board",
+    "tagline": "Organiza tareas, colabora y mueve el flujo del equipo con una interfaz clara y responsive.",
+    "language": "Idioma",
+    "views": {
+      "kanban": "Kanban",
+      "table": "Tabla"
+    },
+    "actions": {
+      "reload": "Recargar",
+      "newTask": "Nueva tarea"
+    }
+  },
+  "auth": {
+    "login": {
+      "pageTitle": "Bienvenida",
+      "pageSubtitle": "Inicia sesión para administrar el tablero del equipo.",
+      "title": "Iniciar sesión",
+      "email": "Correo",
+      "password": "Contraseña",
+      "submit": "Ingresar",
+      "noAccount": "¿No tienes cuenta?",
+      "register": "Crear cuenta",
+      "error": "Credenciales inválidas"
+    },
+    "register": {
+      "pageTitle": "Crear cuenta",
+      "pageSubtitle": "Registra un usuario y entra al tablero automáticamente.",
+      "title": "Registrarse",
+      "name": "Nombre completo",
+      "email": "Correo",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "role": "Rol",
+      "submit": "Registrarme",
+      "alreadyHaveAccount": "¿Ya tienes cuenta?",
+      "login": "Ya tengo cuenta",
+      "error": "No fue posible crear la cuenta"
+    },
+    "roles": {
+      "ADMIN": "Admin",
+      "MEMBER": "Miembro"
+    },
+    "validation": {
+      "nameMin": "El nombre debe tener al menos 2 caracteres",
+      "email": "Ingresa un correo válido",
+      "passwordMin": "La contraseña debe tener al menos 8 caracteres",
+      "requiredRole": "Selecciona un rol"
+    }
+  },
+  "tasks": {
+    "title": "Tareas",
+    "new": "Nueva tarea",
+    "detail": {
+      "title": "Detalle de tarea",
+      "subtitle": "Consulta, edita y elimina una tarea del tablero.",
+      "assignedTo": "Asignado a",
+      "createdBy": "Creada por",
+      "createdAt": "Creada",
+      "updatedAt": "Actualizada",
+      "edit": "Editar tarea",
+      "closeEdit": "Cerrar edición",
+      "delete": "Eliminar tarea",
+      "editWarning": "Editar también permite mover el estado de la tarea a completada."
+    },
+    "createPage": {
+      "title": "Nueva tarea",
+      "subtitle": "Crea una tarea y asígnala a un miembro del equipo."
+    },
+    "form": {
+      "title": "Título",
+      "description": "Descripción",
+      "priority": "Prioridad",
+      "status": "Estado",
+      "assignee": "Asignado a",
+      "create": "Crear tarea",
+      "update": "Guardar cambios"
+    },
+    "status": {
+      "TODO": "Por hacer",
+      "IN_PROGRESS": "En progreso",
+      "DONE": "Hecha"
+    },
+    "priority": {
+      "LOW": "Baja",
+      "MEDIUM": "Media",
+      "HIGH": "Alta"
+    },
+    "table": {
+      "title": "Título",
+      "status": "Estado",
+      "priority": "Prioridad",
+      "assignee": "Asignado",
+      "createdBy": "Creada por",
+      "action": "Acción",
+      "viewDetail": "Ver detalle",
+      "empty": "No se encontraron tareas con los filtros actuales."
+    },
+    "filters": {
+      "search": "Buscar por título",
+      "status": "Estado",
+      "priority": "Prioridad",
+      "assignee": "Asignado a",
+      "allStatuses": "Todos los estados",
+      "allPriorities": "Todas las prioridades",
+      "allAssignees": "Todos"
+    },
+    "validation": {
+      "titleMin": "El título debe tener al menos 3 caracteres",
+      "descriptionMin": "La descripción debe tener al menos 5 caracteres",
+      "assigneeRequired": "Selecciona un responsable"
+    },
+    "count": "Se encontraron {{count}} tarea(s).",
+    "columnCount": "{{count}} tarea(s)",
+    "assignedTo": "Asignado a: {{name}}"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "loadingApp": "Cargando Team Task Board...",
+    "logout": "Salir",
+    "back": "Volver",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar"
+  },
+  "dashboard": {
+    "title": "Vista principal",
+    "subtitle": "Filtra, busca y mueve tareas entre columnas con drag and drop."
+  }
+}

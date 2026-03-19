@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "Team Task Board",
+    "tagline": "Organize tasks, collaborate, and move team workflow with a clear and responsive interface.",
+    "language": "Language",
+    "views": {
+      "kanban": "Kanban",
+      "table": "Table"
+    },
+    "actions": {
+      "reload": "Reload",
+      "newTask": "New task"
+    }
+  },
+  "auth": {
+    "login": {
+      "pageTitle": "Welcome",
+      "pageSubtitle": "Sign in to manage the team board.",
+      "title": "Sign in",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "register": "Create account",
+      "error": "Invalid credentials"
+    },
+    "register": {
+      "pageTitle": "Create account",
+      "pageSubtitle": "Register a user and enter the board automatically.",
+      "title": "Register",
+      "name": "Full name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "role": "Role",
+      "submit": "Register",
+      "alreadyHaveAccount": "Already have an account?",
+      "login": "I already have an account",
+      "error": "Could not create the account"
+    },
+    "roles": {
+      "ADMIN": "Admin",
+      "MEMBER": "Member"
+    },
+    "validation": {
+      "nameMin": "Name must have at least 2 characters",
+      "email": "Enter a valid email address",
+      "passwordMin": "Password must have at least 8 characters",
+      "requiredRole": "Select a role"
+    }
+  },
+  "tasks": {
+    "title": "Tasks",
+    "new": "New task",
+    "detail": {
+      "title": "Task detail",
+      "subtitle": "Review, edit, and delete a board task.",
+      "assignedTo": "Assigned to",
+      "createdBy": "Created by",
+      "createdAt": "Created",
+      "updatedAt": "Updated",
+      "edit": "Edit task",
+      "closeEdit": "Close edit",
+      "delete": "Delete task",
+      "editWarning": "Editing also lets you move the task status to done."
+    },
+    "createPage": {
+      "title": "New task",
+      "subtitle": "Create a task and assign it to a team member."
+    },
+    "form": {
+      "title": "Title",
+      "description": "Description",
+      "priority": "Priority",
+      "status": "Status",
+      "assignee": "Assigned to",
+      "create": "Create task",
+      "update": "Save changes"
+    },
+    "status": {
+      "TODO": "To do",
+      "IN_PROGRESS": "In progress",
+      "DONE": "Done"
+    },
+    "priority": {
+      "LOW": "Low",
+      "MEDIUM": "Medium",
+      "HIGH": "High"
+    },
+    "table": {
+      "title": "Title",
+      "status": "Status",
+      "priority": "Priority",
+      "assignee": "Assignee",
+      "createdBy": "Created by",
+      "action": "Action",
+      "viewDetail": "View detail",
+      "empty": "No tasks were found for the current filters."
+    },
+    "filters": {
+      "search": "Search by title",
+      "status": "Status",
+      "priority": "Priority",
+      "assignee": "Assigned to",
+      "allStatuses": "All statuses",
+      "allPriorities": "All priorities",
+      "allAssignees": "All"
+    },
+    "validation": {
+      "titleMin": "Title must have at least 3 characters",
+      "descriptionMin": "Description must have at least 5 characters",
+      "assigneeRequired": "Select an assignee"
+    },
+    "count": "{{count}} task(s) found.",
+    "columnCount": "{{count}} task(s)",
+    "assignedTo": "Assigned to: {{name}}"
+  },
+  "common": {
+    "loading": "Loading...",
+    "loadingApp": "Loading Team Task Board...",
+    "logout": "Logout",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close"
+  },
+  "dashboard": {
+    "title": "Main view",
+    "subtitle": "Filter, search, and move tasks across columns with drag and drop."
+  }
+}
