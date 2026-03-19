@@ -1,6 +1,6 @@
 # Team Task Board
 
-Solucion full stack para la prueba tecnica Team Task Board. El proyecto incluye autenticacion con JWT, tablero kanban con drag and drop, filtros, CRUD de tareas, roles basicos y una capa de internacionalizacion con soporte real para espanol e ingles.
+Solucion full stack para la prueba tecnica Team Task Board. El proyecto incluye autenticacion con JWT, tablero kanban con drag and drop, filtros, CRUD de tareas, roles basicos y una capa de internacionalizacion con soporte real para espanol e ingles, proyecto en el cuel un usuario de manera sencilla sea en español o inglés, puede configurar, crear, editar o filtrar sus tareas.
 
 ## Stack
 
@@ -148,7 +148,7 @@ Despues de ejecutar el seed:
 
 ## Base de datos
 
-Se usa SQLite por velocidad de setup y facilidad de evaluacion local, con Prisma como capa de acceso.
+Se usa SQLite por velocidad de setup y facilidad de evaluacion local, con Prisma como capa de acceso (incluida en la carpeta backend).
 
 Entidades:
 - `User`
@@ -161,11 +161,9 @@ Relaciones:
 ## Documentos incluidos
 
 - `docs/technical-decisions.md`
-- `docs/code-audit-report.md`
 - `docs/delivery-documents.md`
 - `docs/checklist-requirements.md`
 - `docs/architecture.md`
-- `docs/ui-flow.md`
 
 ## Nota de evaluacion
 
